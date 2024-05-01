@@ -1,0 +1,24 @@
+.blockquote{
+    width: 70%;
+    padding: 20px;
+}
+blockquote::before{
+    content: open-quote;
+    padding:8px 22px 8px 22px ;
+    background-color: gray;
+    font-size: 40px;
+    border-radius: 50%;
+    
+}
+blockquote::after{
+    content: close-quote;
+    padding:8px 22px 8px 22px ;
+    background-color: gray;
+    font-size: 40px;
+    border-radius: 50%;
+    float: right;
+
+}
+p{
+    margin-left: 50px;
+}

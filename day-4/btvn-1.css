@@ -1,0 +1,30 @@
+
+.body{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
+.form-subcribe {
+    margin-left: 30px;
+}
+p {
+    font-size: 14px;
+    line-height: 5px;
+
+}
+form {
+    margin-bottom: 10px;
+}
+input {
+    height: 22px;
+    background-color: #ddd;
+}
+input::placeholder{
+    color: orange;
+}
+button {
+
+    height: 28px;
+    background-color: orange;
+    color: #fff;
+}

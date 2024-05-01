@@ -1,0 +1,14 @@
+ul li{
+    position: relative;
+    list-style: none;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -20px;     
+    background-image: url('/assets/pngimg.com\ -\ smiley_PNG36233.png');
+    background-size: contain;
+}

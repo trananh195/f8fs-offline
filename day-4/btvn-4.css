@@ -1,0 +1,24 @@
+body{
+    width: 70%;
+    padding: 20px;
+}
+.firt-content a {
+    color: rgb(122, 157, 233);
+}
+p {
+    line-height: 1.6;
+}
+.last-content{
+    border: 1px solid;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+.last-content a {
+    color: rgb(32, 54, 141);
+}
+span {
+    border: 1px;
+    background-color: rgb(182, 175, 175);
+    border-radius: 5px;
+}
