@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+    margin-top: 10px;
+}
+.label {
+    padding: 10px 0;
+   background-color: orangered;
+   color: #fff
+}
+.content label{
+    cursor: pointer;
+    padding: 10px;
+}
+.content p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    display: none;
+}
+
+.label>label>i{
+    padding: 8px;
+}
+.label>label>.fa-minus{
+    display: none;
+}
+
+#toggle1:checked ~ p, #toggle1:checked ~ div>label>.fa-minus{
+    display: inline-block;
+}
+#toggle1:checked ~ div>label>.fa-plus {
+    display: none;
+}
+#toggle2:checked ~ p, #toggle2:checked ~ div>label>.fa-minus{
+    display: inline-block;
+}
+#toggle2:checked ~ div>label>.fa-plus {
+    display: none;
+}
+#toggle3:checked ~ p, #toggle3:checked ~ div>label>.fa-minus{
+    display: inline-block;
+}
+#toggle3:checked ~ div>label>.fa-plus {
+    display: none;
+}

@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-img img {
+    width: 100%;
+}
+.background-img {
+    position: relative;
+}
+.blurred-bgr {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 420px;
+    height: 220px;
+    top: 30%;
+    left: 43%;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    
+   
+}
+.blurred-bgr h3 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.blurred-bgr p {
+    font-size: 12px;
+    
+}
+.blurred-bgr a {
+    color: black;
+}
