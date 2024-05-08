@@ -1,0 +1,17 @@
+/*
+border css: thêm viền ở thẻ html
+-border-width: độ dày
+-border-style: Kiểu viền
++ none
++solid
++ dotted
++ dashed
++ double
+border-color: màu viền
+*/
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border-left: 5px solid green;
+}

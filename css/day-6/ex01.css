@@ -1,0 +1,42 @@
+/*
+Background css
+- background-color
+- background-image
+- background-repeat
++ repeat : mặc định
++ repeat x --> lập theo trục x
++ repeat y --> lập theo trục y
++ no repeat --> không lặp
+- background-position
++ Trục x: left, center, right, đơn vị tuyệt đối, tương đối
++ Trục y: top, center, bottom, đơn vị tuyệt đối, tương đối
++ thay đổi vị trí của ảnh nền
+
+- background-size
++ Thay đổi kích thước của ảnh nền
++ cover: phủ kín khung hiển thị
++ contain: 
+- background-attackment --> cố định hay không khi kéo thanh cuộn trình duyệt
+- background-color- thuoc tinh gop: 
+
+*/
+/* body{
+    
+    background-color: bisque;
+    background-image: url("https://envato-shoebox-0.imgix.net/f223/2839-85a3-43e8-b0f4-4fcf2f8547aa/Mountain+landscape+with+colorful+vivid+sunset-3.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=1d2ea20bbac710abf4249469a0494f42");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+} */
+.box {
+    height: 400px;
+    background-color: bisque;
+    background-image: url("https://envato-shoebox-0.imgix.net/f223/2839-85a3-43e8-b0f4-4fcf2f8547aa/Mountain+landscape+with+colorful+vivid+sunset-3.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=1d2ea20bbac710abf4249469a0494f42");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size:200px;
+
+}
+h2{
+    
+}

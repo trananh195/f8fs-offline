@@ -1,0 +1,14 @@
+/*
+thuộc tính overflow: xử lý nội dung bị tràn
+-visible
+-hidden
+-scroll
+-auto
+*/
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: auto;
+}
