@@ -1,0 +1,17 @@
+.container {
+  width: 500px;
+  border: 1px solid red;
+  padding: 10px;
+  margin-left: 10px;
+  overflow: auto;
+}
+
+img {
+  padding: 10px;
+  border-radius: 50%;
+  float: left;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  margin-right: 70px;
+}
+

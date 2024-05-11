@@ -9,6 +9,7 @@ thuộc tính overflow: xử lý nội dung bị tràn
 .box{
     width: 200px;
     height: 200px;
-    border: 1px solid red;
-    overflow: auto;
+    border: 1px solid rgb(144, 186, 221);
+    overflow: scroll;
+    overflow-x: hidden;
 }

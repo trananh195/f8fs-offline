@@ -1,0 +1,40 @@
+.header {
+  
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.menu {
+    position: relative;
+    list-style: none;
+    display: flex;
+    
+
+}
+.menu li a {
+    padding: 10px;
+    border: 1px solid ;
+}
+.sub-menu {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    display: none;
+}
+.sub-menu li a {
+    padding: 10px;
+}
+.menu li:last-child {
+    margin-left:100px;
+}
+.menu li:last-child:hover a{
+    background-color: aqua;
+    
+}
+.menu li:last-child:hover a ~ .sub-menu{
+    display: block;
+    
+}

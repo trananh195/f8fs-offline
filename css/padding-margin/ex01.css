@@ -1,0 +1,26 @@
+/*
+Thuộc tính padding: Đệm khoảng cách giữa border và nội dung
+-padding: value
+-padding: value1, value2
+-padding: value1, value2, value3
+-padding: value1, value2, value3, value4
+ Note: khi dùng đơn vị % thì padding sẽ theo width của thẻ cha
+ Lý do: tạo ra các box theo tỉ lệ
+ padding không có giá trị âm
+ padding ko có giá trị auto
+ padding-top, padding-bottom ko hoạt động với thẻ inline
+*/
+body{
+
+}
+.box {
+    width: 300px;
+    border: 1px solid red;
+    padding: 30px;
+}
+a {
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 15px;
+}

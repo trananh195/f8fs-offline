@@ -1,0 +1,30 @@
+/*
+Thuộc tính margin : Tạo khoảng cách bên ngoài border
+Lưu ý: đơn vị % tỉ lệ theo width của thẻ cha
+-Thẻ inline không hđ với thuộc tính margin-top và bottom
+
+-Hỗ trợ giá trị âm và auto
+Tự động thu hẹp lề:
+th1: 2 tp đứng cạnh nhau
+- Nếu 2 margin cùng dấu thì lấy trị tuyệt đối lớn hơn
+- Nếu 2 margin trái dấu thì cộng 2 giá trị lại
+th2: 2 thành phần lồng nhau
+*/
+.box {
+    width: 300px;
+    border: 1px solid red;
+    margin-bottom: -20px;
+   
+}
+.box2 {
+    border: 1px solid red;
+    margin-top: 30px;
+}
+.content {
+    background-color: green;
+    color: #fff;
+   
+}
+.content h2 {
+    margin: 30px 0;
+}
