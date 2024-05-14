@@ -1,0 +1,17 @@
+/*
+Thuộc tính display
+-none ---> Ẩn thẻ html (Mất không gian hiển thị )
+
+Thuộc tính vidibility : Ẩn / hiện thẻ htmk (Không làm mất không gian)
+
+-Thuộc tính opacity: làm mờ( Nhận từ 0 đến 1)
+
+-Thuộc tính filter:
+-opacity (number)
+-grayscale(number)
+-blur (number + unit)
+*/
+h1{
+    visibility: hidden;
+    /* opacity: 0; */
+}

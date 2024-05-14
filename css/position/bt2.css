@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.menu {
+  margin-left: 50px;
+  margin-top: 10px;
+  border: 1px solid;
+  display: inline-block;
+}
+ul li {
+  list-style: none;
+}
+.menu > li {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+.menu li > a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid;
+  font-size: initial;
+  color: #666;
+}
+.sub-menu {
+    display: none;
+}

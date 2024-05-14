@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Asap';
+    background-image: url('./../assets/ha-noi-melody-residences-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.banner{
+    position: relative;
+    top: 150px;
+    left: 220px;
+    
+
+}
+.content {
+    width: 510px;
+    min-height: 170px;
+    padding:20px ;
+    background-color: white;
+    opacity: 0.7;
+}
+.content h1 {
+    color: #bf4240;
+    font-size: 26px;
+}
+.content p {
+    margin-top: 15px;
+    color: #3f3424;
+    font-size: 13px;
+}
+.fa-solid {
+    margin-right:5px ;
+}
+.content strong {
+    display: inline-block;
+    margin-top: 15px;
+}
+.sub-content {
+    position: absolute;
+    bottom: -20px;
+    left: 380px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #bf4240;
+    border-radius: 5px;
+    color: white;
+}

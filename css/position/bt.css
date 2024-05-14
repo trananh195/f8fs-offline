@@ -1,0 +1,30 @@
+
+.modal {
+  position: absolute;
+  width: 400px;
+  top: 50px;
+  left: 100px;
+  background-color: aliceblue;
+  padding: 30px;
+  z-index: 1;
+  display: none;
+}
+.modal a {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+.content input:checked .modal {
+  display: block;
+}
+.outside {
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
