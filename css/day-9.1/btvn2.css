@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  margin: 0 auto;
+}
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item {
+    padding: 20px;
+  margin-top: 30px;
+  width: 30%;
+  border: 1px solid gray;
+  box-shadow: 3px 3px rgb(215, 211, 211);
+  transition:  1s ease;
+}
+
+.item:hover .icon {
+  display: none;
+}
+
+.icon {
+  color: wheat;
+  font-size: 25px;
+}
+.item h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: transform 0.5s ease;
+}
+.item p {
+  margin-top: 10px;
+  font-size: 12px;
+  transition: transform 0.75s ease ;
+}
+.item a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: none;
+}
+a .arrow {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+    
+}
+.item:hover {
+    background-color: rgb(134, 104, 64);
+
+}
+.item:hover a {
+    display: block;
+}
+.arrow:hover {
+    background-color: #fff;
+    color: grey;
+}
+.text {
+    transition: transform 0.5s ease;
+}
+.item:hover h3 {
+    transform: translateY(-30px);
+}
+.item:hover p {
+    transform: translateY(-30px);
+}
+.box {
+    padding: 20px;
+}
+
+.item:hover .box {
+    border: 1px solid #a39191;
+   
+}
