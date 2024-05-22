@@ -1,0 +1,38 @@
+/* 
+Tạo di chuyển mượt mà với các thuộc tính css( Chỉ áp dung với thuộc tính có giá trị là số)
+-transition-proprtty: khai báo các thuộc tính css muốn chuyển động
++ all
++ tên thuộc tính css
+==> Mỗi thuộc tính cách nhau bởi dấu ,
+- transition-duration : Thời gian hoàn thành chuyển động ( s,ms)
+-transition-deley: Thời gian trễ trước khi chuyển động xảy ra
+-transition-timming-function: thiết lập tốc độ di chuyển
++ ease : mặc định: khởi động chậm sau đó nhanh dần - kết thúc chậm
++ ease-in: Khởi động chậm sau đó nhanh dần cho đến khi kết thúc
++ ease-out : khởi động nhanh sau đó chậm dần đến lúc kết thúc
++ ease-in-out :  mặc định: khởi động chậm sau đó nhanh dần - kết thúc chậm(khác chỉ số)
++linear: chuyển động đều
++ cubic-bezie (p1, p2, p3, p4)
+- transition: property duration deley timing
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  border: 1px solid red;
+}
+.box h1 {
+  /* transition-property: padding-left;
+    transition-duration: 2s;
+    transition-timing-function: ease-out; */
+  transition: 2s linear;
+  transition-property: padding-left, background;
+}
+.box:hover h1 {
+  padding-left: 200px;
+  /* transition-delay: 1s; */
+  background: green;
+}
