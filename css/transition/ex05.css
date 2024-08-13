@@ -8,14 +8,24 @@ h1 {
     color: green;
     overflow: hidden;
 }
-h1 span {
+h1 > span > span {
     position: absolute;
-    top: 100%;
     left: 0;
+    right: 0;
     bottom: 0;
     color: red;
+   
+}
+
+h1 > span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 100%;
+    overflow: hidden;
     transition: top 0.3s ease;
 }
-h1:hover span {
+h1:hover > span {
     top: 0;
 }

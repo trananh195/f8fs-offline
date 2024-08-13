@@ -1,0 +1,34 @@
+label {
+  display: block;
+  margin-top: 15px;
+  margin-left: 30px;
+  user-select: none;
+}
+ span {
+  position: relative;
+  left: 10px;
+  top: 7px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid blue;
+  
+  
+ 
+}
+span::before {
+  content: "";
+  width: 5px;
+  height: 10px;
+  border: 2px solid blue;
+  position: absolute;
+  transform: rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  left: 7px;
+  display: none;
+  
+}
+input:checked + span::before {
+    display: block;
+}

@@ -1,0 +1,13 @@
+.products {
+    background: honeydew;
+    padding: 30px 0;
+}
+.products h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.products .item {
+    border: 1px solid #ccc;
+    padding: 15px;
+}

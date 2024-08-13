@@ -1,0 +1,59 @@
+/*
+Thuộc tính transform : Thay đổi hình dạng của các thẻ html( xoay, phóng to, thu nhỏ, nghiêng, di chuyển)
+-rotate(angle) : xoay theo trục z
+-rotateX: Xoay theo trục x
+-rotateY: Xoay theo trục y
+-scale(x,y) : Phóng to thu nhỏ theo trục x,y
+-scaleX: phóng theo trục x
+-scaleY: phóng theo trục y
+-skew(angleX,angleY): Nghiêng theo trục x, y
+-skewX(angle): Nghiêng theo trục x
+-skewY(angle): Nghiêng theo trục y
+-translate(x,y) : Di chuyển thẻ html tới vị trí mới(không thay đổi bố cục)
+-translateX: di chuyển theo trục X
+-translateY: di chuyển theo trục Y
+
+các thuộc tính tách ra
+-rotate ==> tương tự transform: rotate()
+-scale ==> Tương tự transform: scale()
+-translate ==> tương tự transform: translate()
+*/
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+}
+.wrapper {
+    border: 1px solid red;
+    padding: 50px;
+    position: relative;
+}
+.wrapper:hover .box{
+    /* transform: rotate(45deg) scale(1.2); */
+    /* transform: skew(30deg); */
+    /* transform: translate(100px ,100px); */
+}
+.left, .right {
+    background-color: green;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.left {
+    left: 10px;
+}
+.right {
+    right: 10px;
+}
