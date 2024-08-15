@@ -1,0 +1,77 @@
+// Kế thừa
+// .box {
+//     padding: 30px 0;
+//     width: 1200px;
+//     margin: 0 auto;
+// }
+// %center-section {
+//     padding: 30px 0;
+//     width: 1200px;
+//     margin: 0 auto;
+//     .text {
+//         color:#333;
+//     }
+// }
+// .posts {
+//     @extend %center-section;
+//     border-bottom: 1px solid red;
+// }
+// .products {
+//     @extend %center-section;
+//     background: gray;
+// }
+// .menu {
+//     li {
+//         a {
+//             &.active {
+//                 color: red;
+//             }
+//             &:hover: {
+//                 @extend .active
+//             }
+//         }
+//     }
+// }
+
+//mixin va include
+// @mixin center-section ($width: 1200px, $space: 0) {
+//     width: $width;
+//     margin: $space auto;
+// }
+//  .posts {
+//     background-color: gray;
+//     @include center-section;
+//  }
+//  .products {
+//     border-bottom: 1px solid red;
+//     @include center-section(1300px, 30px);
+//  }
+
+//Responsive
+@mixin small-device {
+    @media screen and (max-width : 767.98px) {
+        @content
+    }
+}
+@include small-device {
+    .posts {
+        display: block;
+    }
+}
+
+// Tom tat phan ke thua
+// @extend selector
+// @extend placeholder
+// @mixin ==> dinh nghia mixin
+//@include ==> goi mixin
+
+
+//Trong mixin co 3 truong hop
+//- Khong doi so
+//- Co doi so
+// - Co @content ==> bo sung them css cho mixin khi goi
+
+// Toan tu so sanh va luan ly (and, or, not)
+// Cau lenh re nhanh @if @else
+// Vong lap: @for throught va for to
+// Vong lap @each

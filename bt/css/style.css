@@ -1,0 +1,33 @@
+.header {
+  max-width: 1200px;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+}
+.header ul a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0 30px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */
